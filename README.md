@@ -10,6 +10,7 @@ The task is to replace all instances of integer multiplication by 2 with additio
 For example, the expression "x = y * 2;" should be transformed to "x = y + y;". 
 The pass should modify the LLVM IR code accordingly and generate the optimized output.
 
+> Read the report file [here](REPORT.md)
 
 # Changed/Added files
 - ./lib/MBAMul.cpp

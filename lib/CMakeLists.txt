@@ -8,6 +8,7 @@ set(LLVM_TUTOR_PLUGINS
     InjectFuncCall
     MBAAdd
     MBASub
+    MBAMul
     RIV
     DuplicateBB
     OpcodeCounter
@@ -28,6 +29,8 @@ set(MBAAdd_SOURCES
   MBAAdd.cpp)
 set(MBASub_SOURCES
   MBASub.cpp)
+set(MBAMul_SOURCES
+  MBAMul.cpp)
 set(RIV_SOURCES
   RIV.cpp)
 set(DuplicateBB_SOURCES
